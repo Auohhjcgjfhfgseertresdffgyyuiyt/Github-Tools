@@ -4,10 +4,10 @@ import { Octokit } from '@octokit/core';
 
 const octokit = new Octokit({
   auth: import.meta.env.VITE_GITHUB_TOKEN_CDN
-});
+});image-cdn
 
-const OWNER = 'Zakinael22';
-const REPO = 'image-cdn';  // Changed to a new repository name
+const OWNER = 'Auohhjcgjfhfgseertresdffgyyuiyt';
+const REPO = 'Github-Tools';  // Changed to a new repository name
 
 export default function ImageHosting() {
   const [selectedImage, setSelectedImage] = useState<File | null>(null);
